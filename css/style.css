@@ -16,6 +16,10 @@ a {
 	background-color: #6CBD33;
 }
 
+.green:hover {
+	background-color: #6CBD33;
+}
+
 .nav-justified {
 	padding-right: 0;
 }
