@@ -17,13 +17,16 @@ a {
 }
 
 .green:hover {
-	background-color: #6CBD33;
+	background-color: green;
 }
 
-.nav-justified {
-	padding-right: 0;
+.navbar {
+	margin-bottom: 0px;
 }
 
+.nav>li>a {
+	padding: 8px;
+}
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: #fff;
@@ -36,6 +39,10 @@ li .active a {
 
 .jumbotron a{
 	font-size: 30px;
+}
+
+.background {
+	background: #EBECE4;
 }
 
 .nopadding {
@@ -58,7 +65,6 @@ li .active a {
 .vertical-center {
 	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
 	min-height: 100vh; /* These two lines are counted as one :-)       */
-
 	display: flex;
 	align-items: center;
 }
@@ -70,7 +76,7 @@ li .active a {
 }
 
 .carousel-picture img{
-	background-size: cover; 
+	background-size: auto; 
 }
 
 .livraison {
